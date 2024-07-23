@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #074f65; /* Dark blue background for the body */
+    color: #131313; 
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(10, 10, 10, 0.95); /* Orange background for the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #e9e2e5; 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #f1efed; 
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #11a2a7;  
+}
+
+.home {
+    height: 100vh;  
+    background: url('church.jpg') no-repeat;    
+    background: cover;
+    background-position: center; 
+    display: flex;
+    align-items: center; 
+    padding: 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2; 
+    color: #faf8f8; 
+}
+
+.home-content h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #080808;  
+}
+
+.home-content p {
+    font-size: 20px;
+    margin: 20px 0 40px;
+    color: #060505; 
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between; 
+    width: 345px;
+    height: 50px;
+    margin-top: 20px;
+} 
+
+.btn-box a {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #0d8fb3;  /* Dark blue background for buttons */
+    border: 2px solid #0f1112;  
+    border-radius: 8px;
+    font-size: 19px;
+    color: #181e1f;  
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-box a:hover {
+    background: #afc9d0;  
+    color: #1c1715; /* Dark blue color for text on hover */
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    width: 40px;
+    height: 40px;
+    background: transparent; 
+    border: 2px solid #127099;  
+    border-radius: 50%;
+    font-size: 20px;
+    color: #f1eeec;  
+    text-decoration: none;
+}
+
+.home-sci a:hover {
+    background: #b3936d;  /* Darker orange background on hover */
+    color: #0a0a0a; /* Dark blue color for text on hover */
+}
+
+.welcome-info{
+    position: fixed; 
+    bottom: 10px;
+} 
+.welcome-info{
+    position: fixed;
+    bottom: 10px;
+} 
+.welcome-info{
+    position: fixed;
+    bottom: 10px;
+}
+ .marquee-a{
+    color: #0a0b0b;
+    width: 800px;
+}  
+.contact-info {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: #6cb7d2; */
+    padding: 5px;
+    border-radius: 10px; 
+    /* border: 2px solid rgb(138, 178, 211); */
+    margin-bottom: 20px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  */
+}
+
+.contact-item {
+    display: block;
+    margin-bottom: 8px;
+    color: #e6ebee;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-item i {
+    margin-right:5px;
+}
+.welcome-info{
+    position: fixed;
+    bottom: 10px;
+} 
